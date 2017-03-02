@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: APPTEST123456
+  host: APPTEST123456
+  disk_quota: 1024M
+  services:
+  - AlchemyAPI-k9
+  - APPTEST123456-cloudantNoSQLDB
+  - APPTEST123456-iotf-service
+  - Speech to Text-ku
